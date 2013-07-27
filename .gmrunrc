@@ -1,0 +1,16 @@
+Terminal = terminator
+TermExec = ${Terminal} -e
+AlwaysInTerm = vim man
+
+Width = 380
+Top = 300
+Left = 450
+
+History = 256
+
+ShowDotFiles = 1
+
+URL_http = chromium %u
+URL_gs = chromium 'http://www.google.com/search?q=%s'
+
+EXT:pdf = zathura %s

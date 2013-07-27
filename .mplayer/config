@@ -1,0 +1,26 @@
+ao=alsa
+mixer-channel=Master
+a52drc=1
+mc=0.2
+autosync=30
+
+really-quite=1
+
+vo=xv
+
+double=yes
+monitoraspect=16:10
+fstype=none
+
+heartbeat-cmd="xscreensaver-command -deactivate"
+
+font="Ubuntu:style=Regular"
+ffactor=1
+subfont-autoscale=2
+subfont-text-scale=5
+subfont-blur=2
+
+autoq=100
+vf=pp=de,hqdn3d
+
+ontop=1
