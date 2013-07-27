@@ -10,7 +10,7 @@
     urgent_bell = True
     palette = "#222946:#be1919:#1aaa13:#ffaa3e:#3753cc:#be007f:#14bdcc:#aeaeae:#8c8b89:#dc2f32:#5dce33:#fadd2d:#507cff:#e65cd0:#48f3f3:#dbdde4"
     show_titlebar = False
-    font = Dina 8
+    font = Inconsolata 8
     allow_bold = False
 [layouts]
   [[default]]
