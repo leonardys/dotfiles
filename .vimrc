@@ -40,6 +40,7 @@ set softtabstop=4
 set expandtab
 set smarttab
 
+set number
 set cpo+=$
 set encoding=utf-8
 set cursorline
