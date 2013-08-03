@@ -50,33 +50,32 @@ myFocusFollowsMouse = False
 -- Bars
 myWorkspaceBar = "dzen2 -ta 'l' -fg '" ++ foreground ++  "' -bg '" ++ background ++ "' -fn '" ++ myFont ++ "'"
 
--- Colors from https://github.com/bohoomil
 foreground = "#e6e6e6"
-background = "#090c19"
+background = "#000000"
 
-color0  = "#222946"
-color8  = "#8c8b89"
+color0  = "#4c4c4c"
+color8  = "#737373"
 
-color1  = "#be1919"
-color9  = "#dc2f32"
+color1  = "#ff6685"
+color9  = "#ffa8ba"
 
-color2  = "#1aaa13"
-color10 = "#5dce33"
+color2  = "#a6eba6"
+color10 = "#c5ebc5"
 
-color3  = "#ffaa3e"
-color11 = "#fadd2d"
+color3  = "#ffdc72"
+color11 = "#f9f9a5"
 
-color4  = "#3753cc"
-color12 = "#507cff"
+color4  = "#5dc6f5"
+color12 = "#8ddbff"
 
-color5  = "#be007f"
-color13 = "#e65cd0"
+color5  = "#ff8fff"
+color13 = "#ffabff"
 
-color6  = "#14bdcc"
-color14 = "#48f3f3"
+color6  = "#86d1d7"
+color14 = "#b0f0f0"
 
-color7  = "#aeaeae"
-color15 = "#dbdde4"
+color7  = "#dbdbdb"
+color15 = "#ffffff"
 
 -- Urgency Hook
 data NotifyUrgencyHook = NotifyUrgencyHook deriving (Read, Show)

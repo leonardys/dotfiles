@@ -8,7 +8,7 @@
     use_system_font = False
     background_image = None
     urgent_bell = True
-    palette = "#222946:#be1919:#1aaa13:#ffaa3e:#3753cc:#be007f:#14bdcc:#aeaeae:#8c8b89:#dc2f32:#5dce33:#fadd2d:#507cff:#e65cd0:#48f3f3:#dbdde4"
+    palette = "#4c4c4c:#ff6685:#a6eba6:#ffdc72:#5dc6f5:#ff8fff:#86d1d7:#dbdbdb:#737373:#ffa8ba:#c5ebc5:#f9f9a5:#8ddbff:#ffabff:#b0f0f0:#ffffff"
     show_titlebar = False
     font = Inconsolata 9
     allow_bold = False
