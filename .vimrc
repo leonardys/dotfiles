@@ -44,7 +44,7 @@ set cpo+=$
 set encoding=utf-8
 set cursorline
 set scrolloff=8
-set noshowcmd
+set showcmd
 set noshowmode
 set wildmenu
 set wildmode=list:longest,full
