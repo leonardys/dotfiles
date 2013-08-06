@@ -153,12 +153,12 @@ myChat = named "C"
     $ minimize
     $ reflectHoriz
     $ withIM (1/5) (Title "Buddy List")
-    $ GridRatio 2
+    $ GridRatio 1
 
 myGrid = named "G"
     $ spacing 2
     $ minimize
-    $ GridRatio 2
+    $ GridRatio 1
 
 myLayoutHook = id
     $ avoidStruts
