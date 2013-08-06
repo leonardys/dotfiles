@@ -14,7 +14,6 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-markdown'
-Bundle 'noahfrederick/Hemisu'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic'
 Bundle 'ervandew/supertab'
@@ -25,13 +24,17 @@ Bundle 'rking/ag.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'pangloss/vim-javascript'
 Bundle 'amirh/HTML-AutoCloseTag'
+Bundle 'mattn/zencoding-vim'
+
+Bundle 'noahfrederick/Hemisu'
+Bundle 'chriskempson/vim-tomorrow-theme'
 
 filetype plugin indent on
 
 " Color Scheme
 set t_Co=256
 set background=dark
-colorscheme hemisu
+colorscheme Tomorrow-Night-Bright
 
 " Editor configuration
 set tabstop=4
