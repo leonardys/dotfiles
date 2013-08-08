@@ -109,7 +109,6 @@ cmap w!! w !sudo tee %
 
 " File Support
 au BufRead,BufNewFile *.twig set filetype=jinja.html
-au BufRead,BufNewFile *.blade.php set filetype=html.php
 
 au FileType ruby set tabstop=2 shiftwidth=2 softtabstop=2
 
