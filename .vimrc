@@ -76,7 +76,7 @@ set nowritebackup
 set noswapfile
 
 " Key configuration
-let mapleader=","
+let mapleader=','
 
 nnoremap <silent> <leader><space> :nohls<cr>
 
@@ -112,6 +112,10 @@ au BufRead,BufNewFile *.twig set filetype=jinja.html
 
 au FileType ruby set tabstop=2 shiftwidth=2 softtabstop=2
 
-" airline
-let g:airline_left_sep=''
-let g:airline_right_sep=''
+" Airline
+let g:airline_left_sep='▶'
+let g:airline_right_sep='◀'
+let g:airline_theme='tomorrow'
+
+" CtrlP
+let g:ctrlp_match_window="top,order:ttb"
