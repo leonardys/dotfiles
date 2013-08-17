@@ -1,5 +1,5 @@
 [global_config]
-  inactive_color_offset = 1
+  inactive_color_offset = 1.0
   borderless = True
 [keybindings]
 [profiles]
@@ -8,7 +8,9 @@
     use_system_font = False
     background_image = None
     urgent_bell = True
-    palette = "#4c4c4c:#ff6685:#a6eba6:#ffdc72:#5dc6f5:#ff8fff:#86d1d7:#dbdbdb:#737373:#ffa8ba:#c5ebc5:#f9f9a5:#8ddbff:#ffabff:#b0f0f0:#ffffff"
+    background_color = "#000000"
+    foreground_color = "#e5e5e5"
+    palette = "#000000:#ca373f:#3fca37:#cac237:#373fca:#c237ca:#37cac2:#e5e5e5:#2c2c2c:#e7a4a7:#a7e7a4:#e7e3a4:#a4a7e7:#e3a4e7:#a4e7e3:#ffffff"
     show_titlebar = False
     font = Inconsolata 9
     allow_bold = False
