@@ -10,7 +10,7 @@
     urgent_bell = True
     background_color = "#000000"
     foreground_color = "#e5e5e5"
-    palette = "#000000:#ca373f:#3fca37:#cac237:#373fca:#c237ca:#37cac2:#e5e5e5:#2c2c2c:#e7a4a7:#a7e7a4:#e7e3a4:#a4a7e7:#e3a4e7:#a4e7e3:#ffffff"
+    palette = "#000000:#cd4086:#86cd40:#cd8640:#4086cd:#8640cd:#40cd86:#d2d2d2:#424242:#ebb3cf:#cfebb3:#ebcfb3:#b3cfeb:#cfb3eb:#b3ebcf:#ffffff"
     show_titlebar = False
     font = Inconsolata 9
     allow_bold = False
