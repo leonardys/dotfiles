@@ -28,13 +28,15 @@ Bundle 'xsbeats/vim-blade'
 
 Bundle 'noahfrederick/Hemisu'
 Bundle 'chriskempson/vim-tomorrow-theme'
+Bundle 'dsolstad/vim-wombat256i'
+Bundle 'jtai/vim-womprat'
 
 filetype plugin indent on
 
 " Color Scheme
 set t_Co=256
 set background=dark
-colorscheme Tomorrow-Night-Bright
+colorscheme womprat
 
 " Editor configuration
 set tabstop=4
@@ -115,7 +117,6 @@ au FileType ruby set tabstop=2 shiftwidth=2 softtabstop=2
 " Airline
 let g:airline_left_sep='▶'
 let g:airline_right_sep='◀'
-let g:airline_theme='tomorrow'
 
 " CtrlP
 let g:ctrlp_match_window="top,order:ttb"

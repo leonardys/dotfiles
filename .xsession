@@ -1,4 +1,4 @@
 xscreensaver -no-splash &
-feh --bg-fill ~/Wallpaper/building\ 2.jpg
+feh --bg-fill ~/Wallpaper/wallpaper.jpg
 conky &
 xmonad
