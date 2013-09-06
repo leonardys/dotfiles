@@ -36,7 +36,7 @@ filetype plugin indent on
 " Color Scheme
 set t_Co=256
 set background=dark
-colorscheme womprat
+colorscheme Tomorrow-Night-Bright
 
 " Editor configuration
 set tabstop=4
