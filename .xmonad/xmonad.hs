@@ -123,7 +123,7 @@ myManageHook = composeAll
         className =? "Pidgin" --> doShiftAndGo (myWorkspaces !! 3),
         -- Float
         className =? "feh" --> doCenterFloat,
-        className =? "mplayer2" --> doCenterFloat,
+        className =? "mpv" --> doCenterFloat,
         isDialog --> doCenterFloat,
         isFullscreen --> doFullFloat,
         fullscreenManageHook,
