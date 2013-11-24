@@ -28,7 +28,6 @@ Bundle 'xsbeats/vim-blade'
 
 Bundle 'noahfrederick/Hemisu'
 Bundle 'chriskempson/vim-tomorrow-theme'
-Bundle 'jtai/vim-womprat'
 
 filetype plugin indent on
 
