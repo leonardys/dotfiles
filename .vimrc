@@ -1,5 +1,5 @@
 set nocompatible
-syntax on
+
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
@@ -25,16 +25,21 @@ Bundle 'rking/ag.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'pangloss/vim-javascript'
 Bundle 'xsbeats/vim-blade'
+Bundle 'jnwhiteh/vim-golang'
 
 Bundle 'noahfrederick/Hemisu'
 Bundle 'chriskempson/vim-tomorrow-theme'
+Bundle 'nanotech/jellybeans.vim'
 
 filetype plugin indent on
+syntax on
 
 " Color Scheme
 set t_Co=256
 set background=dark
-colorscheme Tomorrow-Night-Bright
+let g:jellybeans_background_color_256="000000"
+let g:jellybeans_use_lowcolor_black=0
+colorscheme jellybeans
 
 " Editor configuration
 set tabstop=4
@@ -115,6 +120,10 @@ au FileType ruby set tabstop=2 shiftwidth=2 softtabstop=2
 " Airline
 let g:airline_left_sep='▶'
 let g:airline_right_sep='◀'
+let g:airline_theme='luna'
 
 " CtrlP
 let g:ctrlp_match_window="top,order:ttb"
+
+" Go auto FMT on save
+au FileType go au BufWritePre <buffer> silent Fmt
