@@ -145,6 +145,7 @@ myOBig = named "O"
     $ OneBig (2/3) (2/3)
 
 myFull = named "F"
+    $ spacing 2
     $ minimize
     $ fullscreenFocus Full
 
