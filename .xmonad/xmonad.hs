@@ -44,7 +44,7 @@ main = do
 -- Variables
 myTerminal = "terminator"
 myBorderWidth = 0
-myFont = "Ubuntu:style=Regular:pixelsize=12"
+myFont = "Source Sans Pro:style=Regular:pixelsize=13"
 myFocusFollowsMouse = False
 
 -- Bars
@@ -105,7 +105,7 @@ myLogHook h = dynamicLogWithPP $ defaultPP {
     ppTitle = dzenColor color11 background . pad . titleText
 }
     where
-        titleText x = shorten 100 x
+        titleText x = x
         layoutText x = x
 
 -- Manage Hook
