@@ -26,6 +26,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'pangloss/vim-javascript'
 Bundle 'xsbeats/vim-blade'
 Bundle 'jnwhiteh/vim-golang'
+Bundle 'othree/html5.vim'
 
 Bundle 'noahfrederick/Hemisu'
 Bundle 'chriskempson/vim-tomorrow-theme'
