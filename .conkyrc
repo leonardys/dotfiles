@@ -1,5 +1,5 @@
 use_xft yes
-xftfont Ubuntu:size=8
+xftfont Source Sans Pro:size=9
 
 update_interval 3
 
@@ -24,7 +24,7 @@ cpu_avg_samples 2
 default_color f5f5e0
 
 TEXT
-${font Ubuntu:size=24}${alignc}$nodename${font}
+${font Source Sans Pro:size=20}${alignc}$nodename${font}
 
 Uptime:${alignr}$uptime
 Volume:${alignr}${execi 2 amixer get Master | tail -1 | awk '{print $5}' | sed 's/\[//' | sed 's/\]//'}
@@ -32,14 +32,12 @@ Battery:${alignr}${battery_time BAT1} (${battery_percent BAT1}%)
 ${battery_bar BAT1}
 CPU:${alignr}$cpu%
 RAM:${alignr}$mem / $memmax
-${hr 2}
-${font Ubuntu:size=32}${alignc}${time %H:%M}${font}
+${hr 1}
+${font Source Sans Pro:size=30}${alignc}${time %H:%M}${font}
 
 ${alignc}${time %a, %d %B %Y}
-${hr 2}
+${hr 1}
 PROCESS${alignr}CPU
 ${top name 1}${alignr}${top cpu 1}%
 ${top name 2}${alignr}${top cpu 2}%
 ${top name 3}${alignr}${top cpu 3}%
-${top name 4}${alignr}${top cpu 4}%
-${top name 5}${alignr}${top cpu 5}%
