@@ -12,7 +12,7 @@
     foreground_color = "#e5e5e5"
     palette = "#000000:#cd4086:#86cd40:#cd8640:#4086cd:#8640cd:#40cd86:#d2d2d2:#424242:#ebb3cf:#cfebb3:#ebcfb3:#b3cfeb:#cfb3eb:#b3ebcf:#ffffff"
     show_titlebar = False
-    font = Source Code Pro 7
+    font = Inconsolata 11
     allow_bold = False
 [layouts]
   [[default]]

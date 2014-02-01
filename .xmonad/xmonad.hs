@@ -44,7 +44,7 @@ main = do
 -- Variables
 myTerminal = "terminator"
 myBorderWidth = 0
-myFont = "Source Sans Pro:style=Regular:pixelsize=13"
+myFont = "Ubuntu Sans:style=Regular:pixelsize=12"
 myFocusFollowsMouse = False
 
 -- Bars
@@ -94,7 +94,7 @@ myWorkspaces = ["Shell", "Web", "Docs", "Chat"]
 myLogHook h = dynamicLogWithPP $ defaultPP {
     ppOutput = hPutStrLn h,
     ppOrder = \(ws:l:t:_) -> [ws, l, t],
-    ppWsSep = "  ",
+    ppWsSep = " ",
     ppSep = "  ",
     ppCurrent = dzenColor color6 background . pad,
     ppUrgent = dzenColor foreground color1 . pad,

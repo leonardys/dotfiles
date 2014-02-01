@@ -1,5 +1,5 @@
 [global]
-    font = Ubuntu 10
+    font = Ubuntu Sans 10
 
     # allow a small subset of html markup:
     # <b>bold</b>
