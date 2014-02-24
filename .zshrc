@@ -54,3 +54,5 @@ export PATH=$(ruby -rubygems -e "puts Gem.user_dir")/bin:$PATH
 export WORKON_HOME=~/.virtualenvs
 
 source /usr/bin/virtualenvwrapper.sh
+
+DISABLE_UPDATE_PROMPT=true
