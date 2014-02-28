@@ -4,6 +4,5 @@ vd-lavc-threads=2
 stop-screensaver="yes"
 af=scaletempo
 framedrop=yes
-fs=yes
 autofit-larger=90%x90%
 softvol=no
