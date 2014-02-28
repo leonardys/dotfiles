@@ -15,6 +15,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-liquid'
+Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic'
 Bundle 'ervandew/supertab'
@@ -95,6 +96,7 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+map <F3> :NERDTreeToggle<cr>
 
 nnoremap ; :
 vnoremap ; :
