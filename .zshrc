@@ -55,4 +55,4 @@ export WORKON_HOME=~/.virtualenvs
 
 source /usr/bin/virtualenvwrapper.sh
 
-DISABLE_UPDATE_PROMPT=true
+DISABLE_UPDATE_PROMPT="true"
