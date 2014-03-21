@@ -174,7 +174,7 @@ myLayoutHook = id
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList
     [
         ((mod1Mask, xK_F4), kill),
-        ((mod4Mask, xK_l), spawn "xscreensaver-command --lock"),
+        ((mod4Mask, xK_l), spawn "dm-tool lock"),
         ((mod4Mask, xK_e), spawn "thunar"),
         ((mod4Mask, xK_r), spawn "gmrun"),
         ((mod1Mask .|. shiftMask .|. controlMask, xK_Left), shiftToPrev >> prevWS),
