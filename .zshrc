@@ -21,6 +21,7 @@ CASE_SENSITIVE="true"
 
 # Uncomment this to disable bi-weekly auto-update checks
 # DISABLE_AUTO_UPDATE="true"
+DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
 # export UPDATE_ZSH_DAYS=13
@@ -54,5 +55,3 @@ export PATH=$(ruby -rubygems -e "puts Gem.user_dir")/bin:$PATH
 export WORKON_HOME=~/.virtualenvs
 
 source /usr/bin/virtualenvwrapper.sh
-
-DISABLE_UPDATE_PROMPT="true"
