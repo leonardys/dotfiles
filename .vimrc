@@ -67,7 +67,6 @@ set mouse=a
 set history=100
 
 set autoindent
-set smartindent
 set nowrap
 
 set ignorecase
