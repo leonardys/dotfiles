@@ -28,6 +28,7 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'xsbeats/vim-blade'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'othree/html5.vim'
+Bundle 'joshtronic/php.vim'
 
 Bundle 'noahfrederick/Hemisu'
 Bundle 'chriskempson/vim-tomorrow-theme'
