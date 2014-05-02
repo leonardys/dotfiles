@@ -8,12 +8,13 @@
     use_system_font = False
     background_image = None
     urgent_bell = True
-    background_color = "#000000"
-    foreground_color = "#e5e5e5"
-    palette = "#000000:#cd4086:#86cd40:#cd8640:#4086cd:#8640cd:#40cd86:#d2d2d2:#424242:#ebb3cf:#cfebb3:#ebcfb3:#b3cfeb:#cfb3eb:#b3ebcf:#ffffff"
     show_titlebar = False
     font = Inconsolata 11
     allow_bold = False
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    foreground_color = "#eee8d5"
+    background_color = "#002b36"
+    cursor_color = "#eee8d5"
 [layouts]
   [[default]]
     [[[child0]]]
