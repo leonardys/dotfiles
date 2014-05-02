@@ -33,7 +33,6 @@ Bundle 'joshtronic/php.vim'
 Bundle 'noahfrederick/Hemisu'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'nanotech/jellybeans.vim'
-Bundle 'reedes/vim-colors-pencil'
 
 filetype plugin indent on
 syntax on
@@ -41,9 +40,9 @@ syntax on
 " Color Scheme
 set t_Co=256
 set background=dark
-"let g:jellybeans_background_color_256="000000"
-"let g:jellybeans_use_lowcolor_black=0
-colorscheme pencil
+let g:jellybeans_background_color_256="000000"
+let g:jellybeans_use_lowcolor_black=0
+colorscheme jellybeans
 
 " Editor configuration
 set tabstop=4
@@ -124,7 +123,7 @@ au FileType ruby set tabstop=2 shiftwidth=2 softtabstop=2
 " Airline
 let g:airline_left_sep=''
 let g:airline_right_sep=''
-let g:airline_theme='pencil'
+let g:airline_theme='luna'
 
 " CtrlP
 let g:ctrlp_match_window="top,order:ttb"
