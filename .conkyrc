@@ -21,7 +21,7 @@ gap_y 20
 
 cpu_avg_samples 2
 
-default_color ddd
+default_color fdf6e3
 
 TEXT
 ${font Ubuntu Sans:size=32}${alignc}${time %H:%M}${font}
