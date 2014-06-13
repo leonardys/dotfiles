@@ -112,9 +112,9 @@ myLogHook h = dynamicLogWithPP $ defaultPP {
 myManageHook = composeAll
     [
         -- Web workspace
-        resource =? "chromium" --> doShiftAndGo (myWorkspaces !! 1),
+        className =? "Firefox" --> doShiftAndGo (myWorkspaces !! 1),
         -- Docs workspace
-        resource =? "zathura" --> doShiftAndGo (myWorkspaces !! 2),
+        className =? "Zathura" --> doShiftAndGo (myWorkspaces !! 2),
         className =? "libreoffice-startcenter" --> doShiftAndGo (myWorkspaces !! 2),
         className =? "libreoffice-writer" --> doShiftAndGo (myWorkspaces !! 2),
         className =? "libreoffice-calc" --> doShiftAndGo (myWorkspaces !! 2),
