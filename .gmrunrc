@@ -10,7 +10,7 @@ History = 256
 
 ShowDotFiles = 1
 
-URL_http = chromium %u
-URL_gs = chromium 'http://www.google.com/search?q=%s'
+URL_http = firefox %u
+URL_gs = firefox 'http://www.google.com/search?q=%s'
 
 EXT:pdf = zathura %s
