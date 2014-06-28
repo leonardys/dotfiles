@@ -28,7 +28,7 @@ ${font Ubuntu Sans:size=32}${alignc}${time %H:%M}${font}
 ${alignc}${time %a, %d %B %Y}
 ${hr 1}
 Uptime${alignr}$uptime
-Volume${alignr}${execi 2 amixer get Master | tail -1 | awk '{print $5}' | sed 's/\[//' | sed 's/\]//'}
+Volume${alignr}${execi 2 amixer get Master | tail -1 | awk '{print $4}' | sed 's/\[//' | sed 's/\]//'}
 Battery${alignr}${battery_time BAT1} (${battery_percent BAT1}%)
 ${battery_bar BAT1}
 CPU${alignr}$cpu%
