@@ -111,12 +111,15 @@ nnoremap P ]P
 nnoremap n nzz
 nnoremap N Nzz
 
+nnoremap j gj
+nnoremap k gk
+
 " No more sudo
 cmap w!! w !sudo tee %
 
 " File Support
 au BufRead,BufNewFile *.twig set filetype=jinja.html
-
+au BufRead,BufNewFile *.md set wrap
 au FileType ruby set tabstop=2 shiftwidth=2 softtabstop=2
 
 " Airline
