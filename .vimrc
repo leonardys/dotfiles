@@ -13,8 +13,8 @@ Bundle 'matchit.zip'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-liquid'
+Bundle 'gabrielelana/vim-markdown'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic'
 Bundle 'ervandew/supertab'
@@ -75,6 +75,8 @@ set gdefault
 set incsearch
 set showmatch
 set hlsearch
+
+set spelllang=
 
 " No backup
 set nobackup
