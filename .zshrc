@@ -51,6 +51,7 @@ plugins=(git bower npm composer gem)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+export TERM=xterm-256color
 export PATH=$(ruby -rubygems -e "puts Gem.user_dir")/bin:$PATH
 export WORKON_HOME=~/.virtualenvs
 
