@@ -163,3 +163,6 @@ exec feh --bg-fill ~/Wallpaper/wallpaper
 
 # No Title
 new_window 1pixel
+
+# Notification Daemon
+exec --no-startup-id dunst
