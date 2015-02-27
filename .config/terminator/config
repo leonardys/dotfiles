@@ -1,6 +1,5 @@
 [global_config]
   inactive_color_offset = 1.0
-  borderless = True
 [keybindings]
 [profiles]
   [[default]]
@@ -12,7 +11,7 @@
     cursor_color = "#eeeeec"
     foreground_color = "#ffffff"
     show_titlebar = False
-    font = Inconsolata Medium 9
+    font = CamingoCode 10
     allow_bold = False
 [layouts]
   [[default]]
