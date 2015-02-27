@@ -2,36 +2,38 @@ set nocompatible
 
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " Let Vundle manages Vundle
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-" My Bundles
-Bundle 'matchit.zip'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-liquid'
-Bundle 'gabrielelana/vim-markdown'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/syntastic'
-Bundle 'ervandew/supertab'
-Bundle 'bling/vim-airline'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Raimondi/delimitMate'
-Bundle 'rking/ag.vim'
-Bundle 'godlygeek/tabular'
-Bundle 'pangloss/vim-javascript'
-Bundle 'xsbeats/vim-blade'
-Bundle 'jnwhiteh/vim-golang'
-Bundle 'othree/html5.vim'
-Bundle 'joshtronic/php.vim'
+" My Plugins
+Plugin 'matchit.zip'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-liquid'
+Plugin 'gabrielelana/vim-markdown'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/syntastic'
+Plugin 'ervandew/supertab'
+Plugin 'bling/vim-airline'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'Raimondi/delimitMate'
+Plugin 'rking/ag.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'pangloss/vim-javascript'
+Plugin 'xsbeats/vim-blade'
+Plugin 'jnwhiteh/vim-golang'
+Plugin 'othree/html5.vim'
+Plugin 'joshtronic/php.vim'
 
-Bundle 'noahfrederick/Hemisu'
-Bundle 'chriskempson/vim-tomorrow-theme'
-Bundle 'nanotech/jellybeans.vim'
+Plugin 'noahfrederick/Hemisu'
+Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'nanotech/jellybeans.vim'
+
+call vundle#end()
 
 filetype plugin indent on
 syntax on
