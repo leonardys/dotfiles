@@ -167,6 +167,9 @@ new_window 1pixel
 # Notification Daemon
 exec --no-startup-id dunst
 
+# Network Manager Applet
+exec --no-startup-id nm-applet
+
 # Floating Window
 for_window [class="File-roller"] floating enable, border normal
 for_window [class="feh"] floating enable, border none
