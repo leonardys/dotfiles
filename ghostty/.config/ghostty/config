@@ -1,0 +1,9 @@
+shell-integration = zsh
+
+theme = Rose Pine
+window-padding-x = 4
+window-padding-y = 4
+mouse-hide-while-typing = true
+
+font-family = JetBrainsMono Nerd Font Propo
+font-size = 10
